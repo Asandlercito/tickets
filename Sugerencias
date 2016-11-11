@@ -1,0 +1,15 @@
+Modelo de Negocio que podria ser implementado en un Hospital u/o Banco donde se necestice un sistemas de Tickets.
+Este Ejemplo esta orientado a la creacion de tickets en un hospital.
+
+1. Los Usuarios que piden los tickets son  en mi caso "Pacientes".
+2. Los que generan los tickets podrian ser dos Actores, "El Sistema" y/o un "Administrador".
+3. Los que Visualizarian la lista de tickets serian los "Pacientes"
+4. Los que podrian modificar los tickets serian "Los Administradores"
+5. Para poder Modificar un ticket tendria que el adminstrador iniciar Sesion.
+6. Se tendria que registrar Los Usuarios (Administrador1, Admin 2 , Admin 3 etc etc) para poder crear un ticke y/o gestionarlo
+7. Los Pacientes no pueden modificar Tickets solo visualizarlos y esperar por su turno.
+8. El Sistema deberia crear Tickets Automaticamte cada vez que alguien lo requiera.
+9. Se deberia crear tickets de acuerdo a la gravedad del paciente (estadoPaciente) para que este sea atendido dependiendo
+   el estado en el que se encuentra.
+10. Oriente esta app con este modelo de negocio porque tendria mas sentido para mi enforcarme en algun ejemplo de la vida real.
+11. Gracias Totales.
